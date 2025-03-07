@@ -1,0 +1,6 @@
+@webApiFoeNative_HostAddress = http://localhost:5246
+
+GET {{webApiFoeNative_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
