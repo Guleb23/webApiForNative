@@ -48,6 +48,7 @@ namespace webApiFoeNative
 
 
             var app = builder.Build();
+            app.Urls.Add("http://*:5000");
             app.UseCors("AllowAllOrigins");
             app.UseRouting();
             app.UseStaticFiles(new StaticFileOptions
